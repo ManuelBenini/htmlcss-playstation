@@ -1,5 +1,46 @@
 footer{
   min-height: 400px;
   background-color: #00439c;
-  padding-top: 50px;
+  padding: 50px 0 70px 0;
+}
+
+footer img:first-of-type{
+  width: 100px;
+  filter: brightness(0) invert(1)
+}
+
+.mb_reg-entity{
+  position: absolute;
+  bottom: 15px;
+  left: 85px;
+  font-size: 9px;
+}
+
+footer span{
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+}
+
+.mb_localization .mb_globe{
+  width: 20px;
+  margin-right: 10px;
+}
+
+footer .mb_lists{
+  margin: 50px 0;
+}
+
+footer .col ul li{
+  margin-bottom: 10px;
+}
+
+.col .mb_sie-logo{
+  filter: brightness(1);
+  width: 120px;
+  margin-bottom: 5px;
+}
+
+.mb_more-infos{
+  text-decoration: underline;
 }
