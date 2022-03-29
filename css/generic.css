@@ -1,3 +1,15 @@
 body{
   font-family:Helvetica;
 }
+
+p{
+  color: #727272;
+}
+
+h2{
+  font-size: 35px;
+}
+
+img{
+  width: 100%;
+}

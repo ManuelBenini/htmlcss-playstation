@@ -2,6 +2,18 @@
   outline: 2px solid #0065ca;
 }
 
+.mb_btn{
+  border-radius: 20px;
+  background-color: #cd3d0f;
+  border: 2px solid #cd3d0f;
+  outline: 2px solid #cd3d0f;
+}
+
+.mb_btn:hover{
+  border-color: black;
+  background-color: #cd3d0f;
+}
+
 /* DEBUG */
 
 .mb_debug{

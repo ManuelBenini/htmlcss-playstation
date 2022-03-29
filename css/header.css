@@ -21,3 +21,7 @@ header{
   height: 55px;
   background-color: white;
 }
+
+.mb_header-bottom img{
+  width: 55px;
+}

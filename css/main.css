@@ -16,11 +16,11 @@
     width: 250px;
   }
 
-  .mb_jumbotron h2{
-    font-size: 35px;
+  .mb_jumbotron p{
+    color: white;
   }
 
-  .mb_btn_buy{
+  /* .mb_btn_buy{
     border-radius: 20px;
     background-color: #cd3d0f;
     border: 2px solid #cd3d0f;
@@ -30,17 +30,34 @@
   .mb_btn_buy:hover{
     border-color: black;
     background-color: #cd3d0f;
-  }
+  } */
   
 /* /JUMBOTRON */
 
 /* MAIN GAMES CARD */
   .mb_games_card img{
-    width: 100%;
     border-radius: 20px;
     border: 4px solid white;
   }
 /* MAIN GAMES CARD */
+
+/* PS5 PRESENTATION */
+  .mb_no-limits{
+    color: #0065ca;
+  }
+/* PS5 PRESENTATION */
+
+/* PS5 CONSOLE */
+.mb_ps5-console .mb_btn{
+  background-color: #0065ca;
+  outline-color: #0065ca;
+  border: 2px solid #0065ca;
+}
+
+.mb_ps5-console .mb_btn:hover{
+  border-color: white;
+}
+/* PS5 CONSOLE */
 
 .mb_new-games{
   color: white;
