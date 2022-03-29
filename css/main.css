@@ -59,6 +59,30 @@
 }
 /* PS5 CONSOLE */
 
+/* PS5 ACCESSORIES */
+  .mb_ps5_accessories .col{
+    border-bottom: 2px solid white;
+    filter: opacity(0.5);
+  }
+
+  .mb_ps5_accessories .col p{
+    color: black;
+  }
+
+  .mb_ps5_accessories img{
+    width: 60%;
+  }
+
+  .mb_ps5_accessories .col:hover{
+    filter: opacity(1);
+  }
+
+  .mb_ps5_accessories .mb_active_accessories{
+    border-color: #0060c8;
+    filter: opacity(1);
+  }
+/* PS5 ACCESSORIES */
+
 .mb_new-games{
   color: white;
   background-color: #1f1f1f;
