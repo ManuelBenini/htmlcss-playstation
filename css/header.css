@@ -1,11 +1,23 @@
-.mb_sony-img{
-  height: 20px;
-  background-color: black;
+header{
+  height: 85px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
-.mb_header-fixed{
-  height: 50px;
-  position: fixed;
-  top: 20;
-  width: 100%;
+.mb_sony-img{
+  height: 30px;
+  background-color: black;
+  text-align: end;
+}
+
+.mb_sony-img img{
+  height: 100%;
+  padding: 7px;
+}
+
+.mb_header-bottom{
+  height: 55px;
+  background-color: white;
 }
