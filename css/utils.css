@@ -1,0 +1,13 @@
+/* DEBUG */
+
+.mb_debug{
+  background-color: rgba(180, 21, 21, 0.685);
+}
+
+.mb_debug-2{
+  background-color: rgba(102, 4, 4, 0.685);
+}
+
+.mb_h50{
+  min-height: 50px;
+}

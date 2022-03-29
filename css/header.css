@@ -1,0 +1,11 @@
+.mb_sony-img{
+  height: 20px;
+  background-color: black;
+}
+
+.mb_header-fixed{
+  height: 50px;
+  position: fixed;
+  top: 20;
+  width: 100%;
+}
