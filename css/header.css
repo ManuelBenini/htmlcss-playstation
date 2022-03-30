@@ -159,6 +159,11 @@ header nav ul li a:hover .mb_chevron-hover{
   padding: 0 10px;
   border: 1px solid #ececec;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.mb_hamburger-menu:focus-within{
+  outline: 3px solid #676767;
 }
 
 /* DROPDOWN */
