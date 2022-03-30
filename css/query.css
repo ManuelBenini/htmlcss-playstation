@@ -32,6 +32,10 @@
 
 @media screen and (min-width: 992px){
   /* /JUMBOTRON */
+  .mb_jumbotron{
+    min-height: 800px;
+  }
+
   .mb_jumbotron h2,
   .mb_jumbotron p{
     width: 36%
