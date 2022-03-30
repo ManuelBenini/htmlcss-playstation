@@ -96,6 +96,14 @@ header nav ul li a:hover .mb_chevron-hover{
     color: #0070d1;
   }
 
+  header nav ul li:focus-within .mb_dropdown a{
+    color: black;
+  }
+
+  header nav ul li:focus-within .mb_dropdown a:hover{
+    color: #0070d1;
+  }
+
   .mb_dropdown{
     display: none;
     width: 100%;
