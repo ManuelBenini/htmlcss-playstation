@@ -34,6 +34,7 @@ header a:hover{
 
 header ul{
   padding-left: 0;
+  margin-bottom: 0;
 }
  
 header a{
@@ -69,77 +70,138 @@ header nav ul li a:hover .mb_chevron-hover{
   display: inline-block;
 }
 
-  /* DROPDOWN */
-    header nav ul li:focus-within .mb_dropdown{
-      display: block;
-    }
+/* DROPDOWN */
+  header nav ul li:focus-within .mb_dropdown,
+  header .mb_hamburger-menu:focus-within .mb_hg-dropdown{
+    display: block;
+  }
 
-    header nav ul li:focus-within .mb_chevron-hover{
-      transform: rotate(180deg);
-      display: inline-block;
-    }
+  header .mb_hg-dropdown ul li:focus-within .mb_hg-inside-dropdown{
+    display: flex;
+  }
 
-    header nav ul li:focus-within .mb_chevron-static{
-      display: none;
-    }
+  header nav ul li:focus-within .mb_chevron-hover,
+  header .mb_hg-dropdown ul li:focus-within .mb_chevron-hover{
+    transform: rotate(180deg);
+    display: inline-block;
+  }
 
-    header nav ul li:focus-within a{
-      color: #0070d1;
-    }
+  header nav ul li:focus-within .mb_chevron-static,
+  header .mb_hg-dropdown ul li:focus-within .mb_chevron-static{
+    display: none;
+  }
 
-    .mb_dropdown{
-      display: none;
-      width: 100vw;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      z-index: 10;
-      padding-top: 10px;
-      background-color: white;
-    }
+  header nav ul li:focus-within a,
+  header .mb_hg-dropdown ul li:focus-within a{
+    color: #0070d1;
+  }
 
-    .mb_dropdown img{
-      width: 55px;
-    }
+  .mb_dropdown{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    padding-top: 10px;
+    background-color: white;
+  }
 
-    .mb_dropdown a{
-      line-height: normal;
-    }
+  .mb_dropdown img{
+    width: 55px;
+  }
 
-    .mb_dropdown ul li{
-      line-height: 40px;
-    }
+  .mb_dropdown a{
+    line-height: normal;
+  }
 
-    .mb_dropdown ul li:before{ 
-      content:"\2022"; 
-      font-size: 14px;
-      color: blue;
-      margin-right: 5px;
-    }
+  .mb_dropdown ul li{
+    line-height: 40px;
+  }
 
-    .mb_drop-consoles a:hover{
-      box-shadow: 1px 1px 11px 0px #505050;
-    }
-  /* DROPDOWN */
+  .mb_dropdown ul li:before{ 
+    content:"\2022"; 
+    font-size: 14px;
+    color: blue;
+    margin-right: 5px;
+  }
 
-  /* BUTTON */
-    header .mb_btn{
-      border-radius: 20px;
-      background-color: #363636;
-      border: 2px solid #363636;
-      outline: 2px solid #363636;
-      padding: 1px 10px 3px 10px;
-      vertical-align: baseline; 
-    }
+  .mb_drop-consoles a:hover{
+    box-shadow: 1px 1px 11px 0px #505050;
+  }
+/* DROPDOWN */
 
-    header .mb_btn:hover{
-      border-color: white;
-      background-color: #363636;
-    }
-  /* /BUTTON */
+
+/* BUTTON */
+  header .mb_btn{
+    border-radius: 20px;
+    background-color: #363636;
+    border: 2px solid #363636;
+    outline: 2px solid #363636;
+    padding: 1px 10px 3px 10px;
+    vertical-align: baseline; 
+  }
+
+  header .mb_btn:hover{
+    border-color: white;
+    background-color: #363636;
+  }
+/* /BUTTON */
 
 .mb_lens{
-width: 20px;
+  width: 20px;
 }
+
+
+/* HAMBURGER */
+.mb_hamburger-menu{
+  height: 27px;
+  padding: 0 10px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+}
+
+/* DROPDOWN */
+.mb_hg-dropdown{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 0 10px 5px 10px;
+  display: none;
+}
+
+.mb_hg-dropdown ul li{
+  margin-top: 10px;
+}
+
+.mb_hg-dropdown a img{
+  width: 10px;
+}
+
+.mb_hg-inside-dropdown{
+  display: none;
+}
+
+.mb_hg-inside-dropdown a img{
+  width: 55px;
+}
+
+.mb_lens-list{
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px 0;
+}
+
+.mb_lens-list a img{
+  width: 25px
+}
+
+.mb_hg-dropdown .mb_btn{
+  width: 50%;
+}
+/* /DROPDOWN */
+/* /HAMBURGER */
 
 
